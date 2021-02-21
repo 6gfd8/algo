@@ -20,6 +20,11 @@ Parameters:
     Type: String
   SshPort:
     Type: String
+  InstanceMarketOptions:
+    MarketType: spot
+    SpotOptions:
+      SpotInstanceType: persistent
+      InstanceInterruptionBehavior: stop
 Conditions:
   AllocateNewEIP: !Equals [!Ref UseThisElasticIP, '']
   AssociateExistingEIP: !Not [!Equals [!Ref UseThisElasticIP, '']]
