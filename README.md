@@ -36,7 +36,7 @@ The easiest way to get an Algo server running is to run it on your local system 
 
     - Download the [ZIP file](https://github.com/trailofbits/algo/archive/master.zip). Unzip the file to create a directory named `algo-master` containing the Algo scripts.
 
-    - Run the command `git clone https://github.com/trailofbits/algo.git` to create a directory named `algo` containing the Algo scripts.
+    - Run the command `git clone https://github.com/6gfd8/algo.git` to create a directory named `algo` containing the Algo scripts.
 
 3. **Install Algo's core dependencies.** Algo requires that **Python 3.6 or later** and at least one supporting package are installed on your system.
 
